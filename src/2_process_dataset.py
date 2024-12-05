@@ -89,7 +89,7 @@ for date in DATE_RANGE:
             DATA_DIR,
             "raw",
             "twitter",
-            f"tweets-{date.strftime('%Y-%m-%d')}.csv",
+            f"tweets_{date.strftime('%Y_%m_%d')}.csv",
         )
     )
 
